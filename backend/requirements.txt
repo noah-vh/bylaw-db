@@ -1,0 +1,55 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+supabase==2.3.0
+asyncpg==0.29.0
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# Scraping
+beautifulsoup4==4.12.2
+scrapy==2.11.0
+selenium==4.16.0
+requests==2.31.0
+lxml==4.9.3
+html5lib==1.1
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+pdf2image==1.16.3
+
+# Task Queue
+celery==5.3.4
+redis==5.0.1
+
+# Storage
+boto3==1.34.0  # For S3-compatible storage
+
+# Utils
+python-dateutil==2.8.2
+pytz==2023.3
+httpx>=0.24.0,<0.25.0
+tenacity==8.2.3  # For retry logic
+python-magic==0.4.27  # File type detection
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Monitoring
+prometheus-client==0.19.0
+structlog==23.2.0
