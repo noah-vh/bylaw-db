@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { Municipality, MunicipalityConfig, ScrapingJob, DataCorrection, BylawType, ScheduleConfig } from '../types/municipality.types'
 import { MunicipalityService } from '../services/municipalityService'
-import { ScrapingService } from '../services/scrapingService'
 import { 
   Users, 
   Building, 
